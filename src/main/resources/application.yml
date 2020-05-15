@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: counter
+
+server:
+  servlet:
+    context-path: /api
+
+counter:
+  alphabet: "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+  name-template: "counter_%s"
+  gen-seq-length: 5
